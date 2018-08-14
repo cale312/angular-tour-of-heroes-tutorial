@@ -1,0 +1,9 @@
+<h2>My Aliens</h2>
+
+<ul class="aliens">
+	<li *ngFor = "let alien of aliens" (click)="onSelect(alien)" [class.selected] = "alien === selectedAlien">
+		<span class="badge">{{alien.id}}</span> {{alien.name}}
+	</li>
+</ul>
+
+<app-alien-detail [alien]="selectedAlien"></app-alien-detail>

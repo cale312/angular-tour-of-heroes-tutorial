@@ -1,0 +1,32 @@
+ul {
+	list-style: none;
+	background: red;
+	padding: 20px;
+	border-radius: 10px;
+	max-width: 500px;
+}
+
+.badge {
+	background: maroon;
+	padding: 2px;
+	color: #ffff;
+	padding: 2px 20px;
+	border-radius: 5px;
+}
+
+.aliens li {
+	padding: 15px;
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #ffff;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.aliens li:hover {
+	background: #7777;
+}
+
+.selected {
+	background: #7777;
+}
